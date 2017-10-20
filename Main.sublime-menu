@@ -1,0 +1,15 @@
+# ST_Toolbar[
+ {"id":"help"},
+ {"caption":"new","command":"new_file"},
+ {"caption":"save","command":"save"},
+ {"caption":"clone","command":"clone_file"},
+ {"caption":"◀","command":"jump_back"},
+ {"caption":"▶","command":"jump_forward"},
+ {"caption":"Select All ( Scoped )","command":"expand_selection","args":{"to":"scope"}},
+ {"caption":"fold","command":"fold"},
+ {"caption":"unfold","command":"unfold_all"},
+ {"caption":"☗", "command":"toggle_bookmark"},
+ {"caption":"➽","command":"next_bookmark"},
+ {"caption":"view splitted","command":"set_layout","args":{"cols": [0.0, 0.5, 1.0],"rows": [0.0, 1.0],"cells": [[0, 0, 1, 1], [1, 0, 2, 1]]}},
+ {"caption":"single","command":"set_layout","args":{"cols": [0.0, 1.0],"rows": [0.0, 1.0],"cells": [[0, 0, 1, 1]]}},
+]
